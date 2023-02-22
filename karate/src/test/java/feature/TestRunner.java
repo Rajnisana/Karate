@@ -19,6 +19,7 @@ import org.junit.Test;
 // important: do not use @RunWith(Karate.class) !
 public class TestRunner {
 
+	//karate.test will be added
 
     @Test
     public void testParallel() {
