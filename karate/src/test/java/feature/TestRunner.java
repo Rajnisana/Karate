@@ -25,7 +25,7 @@ public class TestRunner {
         Results results = Runner.path("classpath:feature")
                 .outputCucumberJson(true)
                 .karateEnv("demo")
-                .parallel(5);
+                .parallel(3);
         generateReport(results.getReportDir());
         assertTrue(results.getErrorMessages(), results.getFailCount() == 0);
     }
