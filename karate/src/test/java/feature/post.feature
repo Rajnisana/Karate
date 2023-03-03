@@ -9,6 +9,7 @@ Feature: Get API Feature demo
   @tag1
   Scenario Outline: firt get call
     Given path '/users/'
+    And test the feature
     And param page = '<pages>'
     When method GET
     Then status 200
