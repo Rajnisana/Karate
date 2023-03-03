@@ -1,6 +1,9 @@
 package feature;
 import com.intuit.karate.Results;
 import com.intuit.karate.Runner;
+
+import io.cucumber.junit.Cucumber;
+
 import java.io.File;
 import java.util.ArrayList;
 import java.util.Collection;
@@ -11,12 +14,14 @@ import org.apache.commons.io.FileUtils;
 import static org.junit.Assert.*;
 import org.junit.BeforeClass;
 import org.junit.Test;
+import org.junit.runner.RunWith;
 
 /**
  *
  * @author pthomas3
  */
-// important: do not use @RunWith(Karate.class) !
+!
+
 public class TestRunner {
 
 
